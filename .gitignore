@@ -1,0 +1,22 @@
+# Binaries for programs and plugins
+main
+v_raknet
+*.exe
+*.exe~
+
+# Ignore binary output folders
+bin/
+
+# Ignore common editor/system specific metadata
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ENV
+.env
+
+# Ignore installed modules through `v install --local`:
+modules/
+
+testdata/
